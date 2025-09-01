@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SWIFT SUPPORT</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🤖</text></svg>">
+  <meta name="theme-color" content="#0f172a">
+</head>
+<body>
+  <div class="app">
+    <header class="app-header">
+      <div class="brand">
+        <div class="logo">🤖</div>
+        <div class="titles">
+          <h1>SWIFT SUPPORT</h1>
+          <p class="subtitle">Ask anything. Get instant answers.</p>
+        </div>
+        <div style="margin-left:auto; display:flex; gap:8px; align-items:center;">
+          <button id="clear-history" class="send-btn" style="padding:8px 12px;">Clear History</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="chat-container">
+      <div id="chat-box" class="chat-box"></div>
+      <div id="typing-indicator" class="typing hidden">
+        <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+      </div>
+      <div class="input-area">
+        <textarea id="user-input" placeholder="Type your message..." rows="1"></textarea>
+        <button id="send-btn" class="send-btn" aria-label="Send">Send</button>
+      </div>
+      <p class="hint">Press Enter to send • Shift+Enter for a new line</p>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+  </body>
+  </html>
