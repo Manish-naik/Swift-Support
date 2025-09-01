@@ -1,7 +1,7 @@
 {
-  "name": "ai-chatbot",
+  "name": "swift-support",
   "version": "1.0.0",
-  "description": "An intelligent chatbot powered by Google's Gemini AI with a clean chat interface",
+  "description": "Swift Support application with Express.js backend",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -9,26 +9,23 @@
     "test": "echo \"No tests specified\""
   },
   "keywords": [
-    "ai",
-    "chatbot",
-    "gemini",
-    "google-ai",
+    "swift",
+    "support",
     "express",
     "nodejs",
     "javascript",
-    "chat",
-    "ai-assistant"
+    "web-app"
   ],
-  "author": "Your Name",
+  "author": "Manish Naik",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/ai-chatbot.git"
+    "url": "https://github.com/Manish-naik/Swift-Support.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/ai-chatbot/issues"
+    "url": "https://github.com/Manish-naik/Swift-Support/issues"
   },
-  "homepage": "https://github.com/yourusername/ai-chatbot#readme",
+  "homepage": "https://github.com/Manish-naik/Swift-Support#readme",
   "dependencies": {
     "dotenv": "^17.2.1",
     "express": "^5.1.0",
