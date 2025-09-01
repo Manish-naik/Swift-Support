@@ -25,8 +25,9 @@ jobs:
     - name: Run tests
       run: npm test
     
-    - name: Deploy to Railway
-      uses: railway/deploy@v1
-      with:
-        service: ${{ secrets.RAILWAY_SERVICE }}
-        token: ${{ secrets.RAILWAY_TOKEN }}
+    # Comment out Railway deployment until secrets are configured
+    # - name: Deploy to Railway
+    #   uses: railway/deploy@v1
+    #   with:
+    #     service: ${{ secrets.RAILWAY_SERVICE }}
+    #     token: ${{ secrets.RAILWAY_TOKEN }}
